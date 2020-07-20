@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.landing {
+  background-image: url(./Media/landingbackground.jpg);
+  padding: 5%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.landing .landing-flex {
+  font-size: 36px;
+  color: white;
+  width: 40%;
+  line-height: 1.5;
+  font-family: 'Cairo', sans-serif;
+}
+
+.landing .landing-flex .barline {
+  width: 50px;
+  height: 2px;
+  background: #8A7338;
+  margin-right: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 24px;
+}
+
+.landing .btn {
+  background: transparent;
+  color: #8A7338;
+  font-size: 20px;
+  font-family: 'Cairo', sans-serif;
+}
+
+.landing .barflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.landing .landing-project1 {
+  position: relative;
+  background: black;
+}
+
+.landing .landing-project1 img {
+  width: 250px;
+  height: 300px;
+  opacity: 60%;
+  margin-right: 20px;
+}
+
+.landing .landing-project1 p {
+  color: #8A7338;
+  padding: 10px;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.landing .landing-project2 {
+  margin-top: 140px;
+  position: relative;
+  background: black;
+}
+
+.landing .landing-project2 img {
+  width: 250px;
+  height: 300px;
+  opacity: 60%;
+}
+
+.landing .landing-project2 p {
+  color: #8A7338;
+  padding: 10px;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.project .project-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2%;
+}
+
+.project .project-title h1 {
+  font-family: 'Cairo', sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.project .project-title .barline {
+  width: 150px;
+  height: 4px;
+  margin-left: 5%;
+  background: #8A7338;
+}
+
+.project-flex {
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1.5;
+  font-family: 'Cairo', sans-serif;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.project-flex .projectDiv {
+  width: 40%;
+  padding: 4%;
+}
+
+.project-flex .grid-div {
+  width: 60%;
+}
+
+.project-flex .grid-div .card-columns h5 {
+  font-family: 'Cairo', sans-serif;
+  font-size: 12px;
+  line-height: 0.4;
+  padding-top: 8px;
+  font-weight: bold;
+}
+
+.project-flex .grid-div .card-columns .project-describtion {
+  font-family: 'Cairo', sans-serif;
+  font-size: 10px;
+  line-height: 0.2;
+  padding-top: 4px;
+}
+
+.project-flex .btn {
+  width: 200px;
+  margin-top: 20px;
+  border: 1px solid black;
+  background: transparent;
+}
+
+.project-flex .title {
+  text-align: start;
+  font-size: 38px;
+  line-height: 1.2;
+}
+
+#fp-nav {
+  top: 80% !important;
+}
+
+#fp-nav ul li .fp-tooltip {
+  color: #8A7338 !important;
+  font-size: 12px !important;
+  font-family: 'Cairo', sans-serif !important;
+}
+
+span {
+  background: #8A7338 !important;
+}
+/*# sourceMappingURL=main.css.map */
